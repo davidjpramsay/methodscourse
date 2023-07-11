@@ -4,11 +4,17 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// Katex
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Mathematics Methods',
+  tagline: 'Preparation and Companion Course',
   favicon: 'img/favicon.ico',
+
+
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -16,13 +22,11 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // Customs Scripts
+  scripts: ['https://www.geogebra.org/apps/deployggb.js'],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -41,15 +45,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,29 +55,57 @@ const config = {
     ],
   ],
 
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Mathematics Methods',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'ACC',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'prepSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Preparation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'unit1Sidebar',
+            position: 'left',
+            label: 'Unit 1',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'unit2Sidebar',
+            position: 'left',
+            label: 'Unit 2',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'unit3Sidebar',
+            position: 'left',
+            label: 'Unit 3',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'unit4Sidebar',
+            position: 'left',
+            label: 'Unit 4',
           },
         ],
       },
@@ -100,10 +125,6 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
@@ -117,17 +138,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -135,5 +152,7 @@ const config = {
       },
     }),
 };
+
+
 
 module.exports = config;
