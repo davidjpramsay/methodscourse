@@ -1,3 +1,5 @@
+import GeoGebra from '@site/src/components/GeoGebra';
+
 # The Unit Circle
 
 ## Introduction
@@ -6,15 +8,7 @@ The Unit Circle is a circle with radius 1 unit on the Cartesian plane centred at
 
 We then invent some new functions, $\sin{x}$ and $\cos{x}$ that can "magically" (for now) convert the angle $\theta$ into the $y$ and $x$ coordinates respectively. While we are at it we also define a function, $\tan{x}$, that is the ratio of the first two functions.
 
-<GeoGebraApp 
-  id="ggb-element-1"
-  width={800} 
-  height={600} 
-  showToolBar={false}
-  showAlgebraInput={false}
-  showMenuBar={false}
-  filename="/geogebra/unit_circle.ggb"
-/>
+<GeoGebra id="e8pnm2n2" />
 
 ## Definition
 
@@ -25,6 +19,3 @@ $$
 \tan{\theta}&=\frac{\sin{\theta}}{\cos{\theta}}
 \end{align*}
 $$
-
-
-
