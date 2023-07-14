@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 
 let counter = 0;
 
-const GeoGebra = ({ id }) => {
+const GeoGebra = ({ id, ratio }) => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -11,7 +11,7 @@ const GeoGebra = ({ id }) => {
         clearInterval(checkGGB);
         const params = {
           "appName": "geogebra", 
-          "width": ref.current.offsetWidth, 
+          "width": ref.current.offsetWidth,
           "height": ref.current.offsetHeight, 
           "showToolBar": false, 
           "showAlgebraInput": false, 
@@ -29,7 +29,7 @@ const GeoGebra = ({ id }) => {
   const divId = `ggb-element-${counter}`;
 
   return (
-    <div style={{ width: "100%", paddingBottom: "75%", position: "relative" }}>
+    <div style={{ width: "100%", paddingBottom: `${100 / ratio}%`, position: "relative" }}>
       <div id={divId} ref={ref} style={{ position: "absolute", width: "100%", height: "100%" }}></div>
     </div>
   );
