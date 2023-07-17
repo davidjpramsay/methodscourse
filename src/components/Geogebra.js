@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 
 let counter = 0;
 
-const GeoGebra = ({ id, ratio }) => {
+const Geogebra = ({ id, ratio }) => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const GeoGebra = ({ id, ratio }) => {
   );
 };
 
-export default GeoGebra;
+export default Geogebra;
