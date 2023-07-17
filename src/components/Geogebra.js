@@ -16,8 +16,12 @@ const GeoGebra = ({ id, ratio }) => {
           "showToolBar": false, 
           "showAlgebraInput": false, 
           "showMenuBar": false,
+          "enableShiftDragZoom": false,
+          "enableRightClick": false,
+          "enableLabelDrags": false,
+          "showResetIcon": true,
           "showFullscreenButton": true,
-          "material_id": id,
+          "filename": id,
         };
         const ggbApplet = new window.GGBApplet(params, true);
         ggbApplet.inject(ref.current.id);
@@ -29,7 +33,7 @@ const GeoGebra = ({ id, ratio }) => {
   const divId = `ggb-element-${counter}`;
 
   return (
-    <div style={{ width: "100%", paddingBottom: `${100 / ratio}%`, position: "relative" }}>
+    <div style={{ width: "100%", paddingBottom: `${ratio}%`, position: "relative" }}>
       <div id={divId} ref={ref} style={{ position: "absolute", width: "100%", height: "100%" }}></div>
     </div>
   );
