@@ -4,7 +4,7 @@ This is a [Docusaurus 2](https://docusaurus.io) site customised for a [Mathemati
 
 # Install
 
-Clone this repository and run the local server. Then edit files in steps 1, 2, 3 in [Changes from default Docusaurus site](##changes-from-default-docusaurus-site)
+Clone this repository and run the local server. Then edit files in steps 1, 2, 3 in [Changes from default Docusaurus site](#changes-from-default-docusaurus-site)
     
 ```bash
 git clone https://github.com/davidjpramsay/methodscourse.git
