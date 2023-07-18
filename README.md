@@ -1,6 +1,19 @@
 # Mathematics Notes Website
 
-This is [Docusaurus](https://docusaurus.io) site customised for a [Mathematics Methods](https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods) course.
+This is a [Docusaurus 2](https://docusaurus.io) site customised for a [Mathematics Methods](https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods) course. It has Latex and Geogebra embedding.
+
+# Install
+
+1. Clone this repository.
+    
+```bash
+git clone https://github.com/davidjpramsay/methodscourse.git
+cd methodscourse
+npn install
+npx docusaurus run
+```
+
+2. 
 
 ## Issues
 
@@ -10,14 +23,14 @@ This is [Docusaurus](https://docusaurus.io) site customised for a [Mathematics M
 2. Integration of buttons to interact with embedded Geogebra needs implementing.
 3. Local Geogebra file hosting? Custom plugin?
 
-## Installation
+## Base Installation
 
 Install [node.js](https://nodejs.org/en/download)
 
 ```bash
-npx create-docusaurus@latest my-website classic
+npx create-docusaurus@latest my-website-name classic --typescript
 cd my-website
-npx docusaurus start
+npx docusaurus run
 ```
 
 ## Changes from default Docusaurus site.
