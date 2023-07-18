@@ -2,6 +2,11 @@
 
 This is a [Docusaurus 2](https://docusaurus.io) site customised for a [Mathematics Methods](https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods) course. It has Latex and Geogebra embedding.
 
+# Requirements
+
+1. [Node.js](https://nodejs.org/en)
+2. [Git](https://github.com/git-guides/install-git)
+
 # Install
 
 Clone this repository and run the local server. Then edit files in steps 1, 2, 3 in the "[Changes from default Docusaurus site](#changes-from-default-docusaurus-site)" section below.
@@ -10,7 +15,7 @@ Clone this repository and run the local server. Then edit files in steps 1, 2, 3
 git clone https://github.com/davidjpramsay/methodscourse.git
 cd methodscourse
 npm install
-npx docusaurus run
+npm run start
 ```
 
 ## Issues
@@ -28,7 +33,7 @@ Install [node.js](https://nodejs.org/en/download)
 ```bash
 npx create-docusaurus@latest my-website-name classic --typescript
 cd my-website
-npx docusaurus run
+npm run start
 ```
 
 ## Changes from default Docusaurus site
@@ -38,3 +43,9 @@ npx docusaurus run
 3. Sidebars edited: `sidebars.js`
 4. Install [Katex](https://docusaurus.io/docs/markdown-features/math-equations) plugins: `docusaurus.config.js`
 5. Custom component for Geogebra embedding: `src/components/Geogebra.js`
+
+# Editing
+
+1. Install VSCode.
+2. Inside methodscourse directory run `code .` in terminal.
+3. Edit files
