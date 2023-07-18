@@ -6,7 +6,7 @@ The Unit Circle is a circle with radius 1 unit on the Cartesian plane centred at
 
 We then invent some new functions, $\sin{x}$ and $\cos{x}$ that can "magically" (for now) convert the angle $\theta$ into the $y$ and $x$ coordinates respectively. While we are at it we also define a function, $\tan{x}$, that is the ratio of the first two functions.
 
-<Geogebra id="c8sxxraf" ratio={78}/>
+<Geogebra id="gecmgyfu" ratio={97}/>
 
 ## Definition
 

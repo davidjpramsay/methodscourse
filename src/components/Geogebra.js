@@ -19,7 +19,7 @@ const Geogebra = ({ id, ratio }) => {
           "enableShiftDragZoom": false,
           "enableRightClick": false,
           "enableLabelDrags": false,
-          "showResetIcon": true,
+          "showResetIcon": false,
           "showFullscreenButton": true,
           "material_id": id,
         };
