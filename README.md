@@ -47,5 +47,5 @@ npm run start
 # Editing
 
 1. Install VSCode.
-2. Inside methodscourse directory run `code .` in terminal.
+2. Inside of the `methodscourse` directory run `code .` in terminal.
 3. Edit files
