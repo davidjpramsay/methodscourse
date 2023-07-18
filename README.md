@@ -9,7 +9,7 @@ Clone this repository and run the local server. Then edit files in steps 1, 2, 3
 ```bash
 git clone https://github.com/davidjpramsay/methodscourse.git
 cd methodscourse
-npn install
+npm install
 npx docusaurus run
 ```
 
