@@ -21,7 +21,6 @@ const Geogebra = ({ id, ratio }) => {
           "enableLabelDrags": false,
           "showResetIcon": true,
           "showFullscreenButton": true,
-          // "filename": id,
           "material_id": id,
         };
         const ggbApplet = new window.GGBApplet(params, true);
