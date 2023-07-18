@@ -4,7 +4,7 @@ This is a [Docusaurus 2](https://docusaurus.io) site customised for a [Mathemati
 
 # Install
 
-1. Clone this repository.
+Clone this repository and run the local server. Then edit files in steps 1, 2, 3 in [Changes from default Docusaurus site](##changes-from-default-docusaurus-site)
     
 ```bash
 git clone https://github.com/davidjpramsay/methodscourse.git
@@ -12,8 +12,6 @@ cd methodscourse
 npn install
 npx docusaurus run
 ```
-
-2. 
 
 ## Issues
 
@@ -33,7 +31,7 @@ cd my-website
 npx docusaurus run
 ```
 
-## Changes from default Docusaurus site.
+## Changes from default Docusaurus site
 
 1. Homepage modified `src/components/HomepageFeatures/index.tsx` including icons, logos, and svg's: `static/img`
 2. Config file edited, including menu bar links: `docusaurus.config.js`
