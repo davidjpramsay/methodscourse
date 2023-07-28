@@ -6,6 +6,8 @@
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/tzVbRr1IEXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+## Course Work
+
 ## Written Notes
 
 ### Introduction
@@ -143,7 +145,7 @@ $$
 \end{align*}
 $$
 
-In this example you could have cubed $4$ before square rooting, however; as a generally it is better to **make numbers smaller before you make them larger**.
+In this example you could have cubed $4$ before square rooting, however; as a general rule it is better to **make numbers smaller before you make them larger**.
 
 </div>
 </details>
