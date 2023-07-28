@@ -56,7 +56,7 @@ npm run start
 
 Inline Equation
 
-```markdown
+```latex
 This is an inline equation $a^{\frac{m}{n}} = \sqrt[m]{a^n}$
 ```
 
