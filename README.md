@@ -62,7 +62,7 @@ This is an inline equation $a^{\frac{m}{n}} = \sqrt[m]{a^n}$
 
 Display Equation
 
-```latex
+```markdown
 $$
 a^{\frac{m}{n}} = \sqrt[m]{a^n}
 $$

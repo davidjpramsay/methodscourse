@@ -2,6 +2,9 @@
 
 ## Video Lesson
 
+<div class="video-container">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/tzVbRr1IEXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## Written Notes
 
@@ -141,17 +144,6 @@ $$
 $$
 
 In this example you could have cubed $4$ before square rooting, however; as a generally it is better to **make numbers smaller before you make them larger**.
-
-</div>
-</details>
-
-<details>
-<summary>Video</summary>
-<div>
-
-<div class="video-container">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/tzVbRr1IEXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 </div>
 </details>
