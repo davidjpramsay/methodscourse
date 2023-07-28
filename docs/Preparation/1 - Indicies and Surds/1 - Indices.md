@@ -1,6 +1,11 @@
 # Indices
 
-## Introduction
+## Video Lesson
+
+
+## Written Notes
+
+### Introduction
 
 Indices, or powers, represent repeated multiplication in the same way multiplication represents repeated addition.
 
@@ -15,10 +20,9 @@ $$
 </div>
 </details>
 
+### Indice Laws
 
-## Indice Laws
-
-### Multiplcation of the same base.
+#### Multiplcation of the same base.
 
 $$
 a^m \cdot a^n = a^{m+n}
@@ -38,7 +42,7 @@ $$
 </div>
 </details>
 
-### Divison of the same base
+#### Divison of the same base
 
 $$
 \displaystyle{\frac{a^m}{a^n}} = a^{m-n}
@@ -58,7 +62,7 @@ $$
 </div>
 </details>
 
-### Power to a power.
+#### Power to a power.
 
 $$
 \left( \frac{a^m}{b^n} \right)^p = \frac{a^{mp}}{b^{np}}
@@ -78,7 +82,7 @@ $$
 </div>
 </details>
 
-### Power of zero identity.
+#### Power of zero identity.
 
 $$
 a^0 = 1
@@ -98,7 +102,7 @@ $$
 </div>
 </details>
 
-### Negative powers.
+#### Negative powers.
 
 $$
 a^{-1} = \frac{1}{a}
@@ -118,7 +122,7 @@ $$
 </div>
 </details>
 
-### Fractional powers.
+#### Fractional powers.
 
 $$
 a^{\frac{m}{n}} = \sqrt[m]{a^n}

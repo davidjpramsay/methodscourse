@@ -48,4 +48,22 @@ npm run start
 
 1. Install VSCode.
 2. Inside of the `methodscourse` directory run `code .` in terminal.
-3. Edit files
+3. Edit markdown files
+
+## Types
+
+
+### Accordion Component
+
+
+
+```html
+<details>
+<summary>Title</summary>
+<div>
+
+"Content"
+
+</div>
+</details>
+```
