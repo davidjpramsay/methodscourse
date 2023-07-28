@@ -52,6 +52,22 @@ npm run start
 
 ## Types
 
+## Latex via Katex
+
+Inline Equation
+
+```markdown
+This is an inline equation $a^{\frac{m}{n}} = \sqrt[m]{a^n}$
+```
+
+Display Equation
+
+```latex
+$$
+a^{\frac{m}{n}} = \sqrt[m]{a^n}
+$$
+```
+
 ## Youtube Embed
 
 ```html
@@ -59,8 +75,6 @@ npm run start
 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 ```
-
-
 
 ### Accordion Component
 
