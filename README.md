@@ -52,10 +52,17 @@ npm run start
 
 ## Types
 
+## Youtube Embed
+
+```html
+<div class="video-container">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+```
+
+
 
 ### Accordion Component
-
-
 
 ```html
 <details>
