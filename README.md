@@ -43,6 +43,7 @@ npm run start
 3. Sidebars edited: `sidebars.js`
 4. Install [Katex](https://docusaurus.io/docs/markdown-features/math-equations) plugins: `docusaurus.config.js`
 5. Custom component for Geogebra embedding: `src/components/Geogebra.js`
+6. Table of contents extended to 3 headings deep `docusaurus.config.js`
 
 # Editing
 
@@ -87,4 +88,38 @@ $$
 
 </div>
 </details>
+```
+
+### Admonitions
+
+```markdown
+:::note
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::tip
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::info
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::caution
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::danger
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
 ```
