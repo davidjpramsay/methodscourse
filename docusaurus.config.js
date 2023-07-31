@@ -17,10 +17,10 @@ const config = {
 
 
   // Set the production url of your site here
-  url: 'https://drive-2-web-ramsay-docs.on.drv.tw/Webpages/mmcourse/',
+  url: 'https://drive-2-web-ramsay-docs.on.drv.tw/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Webpages/mmcourse/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,12 +42,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
+        blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
