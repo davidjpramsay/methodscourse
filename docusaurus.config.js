@@ -20,7 +20,7 @@ const config = {
   url: 'https://drive-2-web-ramsay-docs.on.drv.tw/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Webpages/mmcourse/',
+  baseUrl: '/', // '/Webpages/mmcourse/' change when build and referrencing error is fixed.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
