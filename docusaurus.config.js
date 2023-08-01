@@ -20,7 +20,7 @@ const config = {
   url: 'https://drive-2-web-ramsay-docs.on.drv.tw/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/', // '/Webpages/mmcourse/' change when build and referrencing error is fixed.
+  baseUrl: '/Webpages/mmcourse/', //change back to '/' for final build
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,7 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          // routeBasePath: '/', change when build and referrencing error is fixed.
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
