@@ -20,6 +20,15 @@ npm run start
 
 ## Issues
 
+### URL Referencing
+
+I want to set the base path to route so all the Docs are not in the Docs folder but when I do 
+
+```jsx
+docs: {
+          // routeBasePath: '/', change when building and referencing error is fixed.
+```
+
 ### Geogebra
 
 1. Geogebra embeddings are not very responsive to layout changes. CSS in Geogebra.js component needs looking at.
