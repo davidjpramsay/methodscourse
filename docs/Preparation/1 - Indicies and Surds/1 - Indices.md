@@ -25,9 +25,9 @@ $$
 </div>
 </details>
 
-### Indice Laws
+### Indices Laws
 
-#### Multiplcation of the same base.
+#### Multiplication of the same base.
 
 $$
 a^m \cdot a^n = a^{m+n}
