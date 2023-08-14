@@ -1,5 +1,13 @@
 # Surds
 
+## Lesson
+
+## Work
+
+## Notes
+
+### Explanation
+
 There are some quantities that cannot be precisely represented as fractions or decimals, such as the number $\pi$. These are known as irrational numbers, and there are infinitely many of them!
 
 One instance where we often encounter irrational numbers is when we take the square root of an integer that has a prime factorisation containing a prime to an odd power.

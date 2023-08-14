@@ -1,1 +1,7 @@
-# Simplifying Expressions 
+# Simplifying Expressions
+
+## Lesson
+
+## Work
+
+## Notes

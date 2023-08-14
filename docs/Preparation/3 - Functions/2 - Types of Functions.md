@@ -1,12 +1,18 @@
 # Types of Functions
 
+## Lesson
+
+## Work
+
+## Notes
+
+# Types of Functions
+
 We class differerent fcuntiosn based on the operations in
 
 ## Linear Functions
 
 ### Definition
-
-
 
 ### Forms of Linear Functions
 

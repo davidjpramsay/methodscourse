@@ -1,5 +1,11 @@
 # Function Notation
 
-## Definition
+## Lesson
 
-A function is relastionship that maps an element of one set to *one and only* one element of another set.
+## Work
+
+## Notes
+
+### Definition
+
+A function is relationship that maps an element of one set to *one and only* one element of another set.
