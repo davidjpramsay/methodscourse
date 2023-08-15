@@ -27,7 +27,12 @@ $$
 
 Evaluate $243^\frac{4}{5}$
 
-Firstly we recognise $243$ as a power of $3$. As it is in the 5<sup>th</sup> column we know that $243^{\frac{1}{5}}=3$
+We will deal with the root first and then the power. Remember we prefer to make numbers smaller before we make them bigger.
+Firstly we recognise $243$ as a power of $3$.
+As it is in the 5<sup>th</sup> column we know that $243^{\frac{1}{5}}=3$.
+Then $3^4$ is $81$.
+
+$\therefore 243^{\frac{4}{5}}=81$
     
 </div>
 </details>
