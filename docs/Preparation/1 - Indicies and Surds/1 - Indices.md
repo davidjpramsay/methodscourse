@@ -8,6 +8,8 @@
 
 ## Course Work
 
+[Download Indices Course Work](./assets/course_work/preparation_course_-_indices.pdf)
+
 ## Notes
 
 ### Introduction
@@ -47,7 +49,7 @@ $$
 </div>
 </details>
 
-#### Divison of the same base
+#### Division of the same base
 
 $$
 \displaystyle{\frac{a^m}{a^n}} = a^{m-n}
