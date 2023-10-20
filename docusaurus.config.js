@@ -19,8 +19,7 @@ const config = {
   // Set the production url of your site here
   url: 'https://ramsay-nas.synology.me', //https://drive-2-web-ramsay-docs.on.drv.tw/
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/', //change back to '/' for final build // /Webpages/mmcourse/
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
