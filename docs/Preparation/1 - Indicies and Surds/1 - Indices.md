@@ -10,7 +10,7 @@
 
 [Download Indices Course Work](./assets/course_work/mm-prep-indices.pdf)
 
-[Download Indices Course Work Solutions](./assets/course_work/<assets/course_work/mm-prep-indices-solns.pdf)
+[Download Indices Course Work Solutions](./assets/course_work/mm-prep-indices-solns.pdf)
 
 <details>
 <summary>Course Work Solutions Video</summary>
