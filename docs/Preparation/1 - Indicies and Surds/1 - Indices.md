@@ -8,7 +8,17 @@
 
 ## Course Work
 
-[Download Indices Course Work](./assets/course_work/preparation_course_-_indices.pdf)
+[Download Indices Course Work](./assets/course_work/mm-prep-indices.pdf)
+
+[Download Indices Course Work Solutions](./assets/course_work/<assets/course_work/mm-prep-indices-solns.pdf)
+
+<details>
+<summary>Course Work Solutions Video</summary>
+<div>
+<div class="video-container">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5rgNQMzlsS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</details>
 
 ## Notes
 
