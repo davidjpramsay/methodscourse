@@ -50,7 +50,7 @@ $$
 
 $$
 \begin{align*}
-x^5 \times x^3 &= x^{5+3}\\
+x^5 \times x^3 &= x^{5+3}\\[3ex]
 &=x^8
 \end{align*}
 $$
@@ -70,7 +70,7 @@ $$
 
 $$
 \begin{align*}
-\frac{y^7}{y^3}&=y^{7-3}\\
+\frac{y^7}{y^3}&=y^{7-3}\\[3ex]
 &=y^{4}
 \end{align*}
 $$
@@ -90,7 +90,7 @@ $$
 
 $$
 \begin{align*}
-\left(\frac{2p^2}{q^3}\right)^3 &= \left(\frac{2^3p^{2 \times 3}}{q^{3 \times 3}}\right)\\
+\left(\frac{2p^2}{q^3}\right)^3 &= \left(\frac{2^3p^{2 \times 3}}{q^{3 \times 3}}\right)\\[3ex]
 &=\frac{8p^6}{q^9}
 \end{align*}
 $$
@@ -110,7 +110,7 @@ $$
 
 $$
 \begin{align*}
-\left(3q^2-4\right)^0 + 3 &= 1 + 3\\
+\left(3q^2-4\right)^0 + 3 &= 1 + 3\\[3ex]
 &=4
 \end{align*}
 $$
@@ -130,8 +130,8 @@ $$
 
 $$
 \begin{align*}
-\left( \frac{a}{b^2} \right)^{-1} &= \frac{a^{-1}}{b^{-4}} \\
-&= \frac{b^{4}}{a}\\
+\left( \frac{a}{b^2} \right)^{-1} &= \frac{a^{-1}}{b^{-4}} \\[3ex]
+&= \frac{b^{4}}{a}
 \end{align*}
 $$
 
@@ -150,8 +150,8 @@ $$
 
 $$
 \begin{align*}
-4^{\frac{3}{2}} &= \left( \sqrt{4} \right)^3\\
-&= 2^3\\
+4^{\frac{3}{2}} &= \left( \sqrt{4} \right)^3\\[3ex]
+&= 2^3\\[3ex]
 &= 8
 \end{align*}
 $$
